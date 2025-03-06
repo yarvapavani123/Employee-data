@@ -33,7 +33,7 @@ const EmployeeDashboard = () => {
         setRowData(dummyData);
         localforage.setItem("employees", dummyData);
       }
-    });
+    }); 
   }, []);
 
   useEffect(() => {
